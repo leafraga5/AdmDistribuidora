@@ -1,0 +1,7 @@
+{
+    "short_name": "Sisma",
+    "name": "Web App hecha por deSTACKar",
+    "start_url": "index.html",
+    "background_color": "#2196F3",
+    "display": "standalone"
+  }

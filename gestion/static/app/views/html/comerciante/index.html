@@ -1,0 +1,60 @@
+<nav-bar>
+    <nav>
+        <a onclick="router.comerciante.mostrarFacturacion()">Facturación</a>
+        <a onclick="router.comerciante.mostrarProductos()">Productos</a>
+        <a onclick="router.comerciante.mostrarClientes()">Clientes</a>
+        <a onclick="router.comerciante.mostrarProveedores()">Proveedores</a>
+        <a onclick="router.comerciante.mostrarConfiguracion()">Configuración</a>
+    </nav>
+    <div slot="barAfter">
+        <a onclick="Sistema.logout()">Cerrar Sesión</a>
+        <a onclick="Modulo.listar()"> Salir</a>
+    </div>
+</nav-bar>
+<header>
+    <h1>Módulo Comerciante</h1>
+</header>
+<main>
+    <figure>
+        <picture>
+            <img src="" alt="Facturación" srcset="">
+        </picture>
+        <figcaption>
+            <button onclick="router.comerciante.mostrarFacturacion()">Facturación</button>
+        </figcaption>
+    </figure>
+    <figure>
+        <picture>
+            <img src="" alt="Productos" srcset="">
+        </picture>
+        <figcaption>
+            <button onclick="router.comerciante.mostrarProductos()">Productos</button>
+        </figcaption>
+    </figure>
+    <figure>
+        <picture>
+            <img src="" alt="Clientes" srcset="">
+        </picture>
+        <figcaption>
+            <button onclick="router.comerciante.mostrarClientes()">Clientes</button>
+        </figcaption>
+    </figure>
+    <figure>
+        <picture>
+            <img src="" alt="Proveedores" srcset="">
+        </picture>
+        <figcaption>
+            <button onclick="router.comerciante.mostrarProveedores()">Proveedores</button>
+        </figcaption>
+    </figure>
+    <figure>
+        <picture>
+            <img src="" alt="Configuración" srcset="">
+        </picture>
+        <figcaption>
+            <button onclick="router.comerciante.mostrarConfiguracion()">Configuración</button>
+        </figcaption>
+    </figure>
+</main>
+<footer>
+</footer>
